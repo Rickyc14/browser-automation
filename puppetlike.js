@@ -3,12 +3,15 @@
 // Esta função deve ser capaz de extrair e exibir no console os títulos das
 // piadas presentes na terceira página do referido site.
 
+
 import puppeteer from 'puppeteer';
 
 (async () => {
 
     // Page starts from 0
     const pageNumber = 2;
+
+    // 2022-2023
     const url = `https://www.piadas.com.br/?page=${pageNumber}`;
 
     const browser = await puppeteer.launch();
