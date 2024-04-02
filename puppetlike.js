@@ -1,7 +1,7 @@
-// Desenvolva uma função, utilizando as bibliotecas Puppeteer ou Playwright,
-// cujo objetivo é acessar o endereço eletrônico "https://www.piadas.com.br".
-// Esta função deve ser capaz de extrair e exibir no console os títulos das
-// piadas presentes na terceira página do referido site.
+// Utilizando a biblioteca Puppeteer, esta função
+// acessa "https://www.piadas.com.br" com o intuito
+// de capturar e mostrar no console os títulos das
+// piadas presentes na terceira página do site.
 
 
 import puppeteer from 'puppeteer';
